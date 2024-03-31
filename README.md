@@ -27,11 +27,22 @@ End the program
 DEVELOPED BY: MOHAMMED SAAJID S
 REGISTER NUMBER:212223240093
 PROGRAM TO FIND THE INVERSE OF THE MATRIX
+
 ```
-Program
+#Program to find the inverse of a matrix.
+#Developed by: MOHAMMED SAAJID S
+#RegisterNumber: 212223240093
+import numpy as np
+A = np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
+result = np.linalg.inv(A)
+print(result)
+
 ```
 
 ## Output:
+
+![mathaiexp3](https://github.com/Mohammed-Saajid/INVERSE-OF-A-MATRIX/assets/141727149/bf36a708-8719-4af7-ad95-151c21178e73)
+
 
 
 
